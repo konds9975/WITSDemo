@@ -15,6 +15,8 @@
 		FFBE0CDC2199E46700C5714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBE0CDA2199E46700C5714A /* LaunchScreen.storyboard */; };
 		FFBE0CE72199E46700C5714A /* WITSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE0CE62199E46700C5714A /* WITSDemoTests.swift */; };
 		FFBE0CF22199E46700C5714A /* WITSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE0CF12199E46700C5714A /* WITSDemoUITests.swift */; };
+		FFBE0D002199E72400C5714A /* VcontrollerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE0CFF2199E72400C5714A /* VcontrollerCell.swift */; };
+		FFBE0D022199F74F00C5714A /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE0D012199F74F00C5714A /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FFBE0CED2199E46700C5714A /* WITSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WITSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBE0CF12199E46700C5714A /* WITSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WITSDemoUITests.swift; sourceTree = "<group>"; };
 		FFBE0CF32199E46700C5714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBE0CFF2199E72400C5714A /* VcontrollerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcontrollerCell.swift; sourceTree = "<group>"; };
+		FFBE0D012199F74F00C5714A /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				FFBE0CCE2199E46500C5714A /* AppDelegate.swift */,
 				FFBE0CD02199E46500C5714A /* ViewController.swift */,
+				FFBE0D012199F74F00C5714A /* BookData.swift */,
+				FFBE0CFF2199E72400C5714A /* VcontrollerCell.swift */,
 				FFBE0CD22199E46500C5714A /* Main.storyboard */,
 				FFBE0CD82199E46700C5714A /* Assets.xcassets */,
 				FFBE0CDA2199E46700C5714A /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBE0D022199F74F00C5714A /* BookData.swift in Sources */,
 				FFBE0CD12199E46500C5714A /* ViewController.swift in Sources */,
 				FFBE0CD72199E46500C5714A /* WITSDemo.xcdatamodeld in Sources */,
+				FFBE0D002199E72400C5714A /* VcontrollerCell.swift in Sources */,
 				FFBE0CCF2199E46500C5714A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
